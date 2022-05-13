@@ -1,5 +1,11 @@
-import './styles/global.css'
+import { RepositoryList } from "./components/RepositoryList";
+import "./styles/global.scss";
 
 export function App() {
-    return <h1>Almost before we knew it, we had left the ground.</h1>
+  return (
+    <>
+      <RepositoryList />
+      <h1>Almost before we knew it, we had left the ground.</h1>
+    </>
+  );
 }
